@@ -17,12 +17,12 @@ Primero buscamos los datasheets de los respectivos elementos, y obtuvimos las si
 * [Datasheet 74LS04](https://www.lcsc.com/datasheet/lcsc_datasheet_Texas-Instruments-TI-SN74LS04N_C183657.pdf)
 * [Datasheet CD4069](https://www.alldatasheet.com/html-pdf/50860/FAIRCHILD/CD4069/405/1/CD4069.html)
 
+Para las simulaciones, nosotros trabajamos en Qucs-Linux para revisar el comportamiento de las tecnologías y sus circuitos equivalentes. Además de poder determinar $V_{IH}$, $V_{IL}$, $V_{OH}$, $V_{OL}$.
+
+Agregar las simulaciones de las comparaciones, los equivalentes
+
 ### Parte 2
 
-Las simulaciones, nosotros trabajamos en Qucs-Linux para revisar el comportamiento de las tecnologías y sus circuitos equivalentes. Además de poder determinar: $V_{IH}$, $V_{IL}$, $V_{OH}$, $V_{OL}$.
 
-Agregar las simulaciones 
-
-Y los calculos:
 
 
