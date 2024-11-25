@@ -15,7 +15,7 @@ En este laboratorio buscamos identificar y comparar las tecnologías de la elect
 Primero buscamos los datasheets de los respectivos elementos, y obtuvimos las siguientes para guiarnos en los valores de simulación:
 
 * [Datasheet 74LS04](https://www.lcsc.com/datasheet/lcsc_datasheet_Texas-Instruments-TI-SN74LS04N_C183657.pdf)
-* [Datasheet CD4069]([https://github.com/johnnycubides/qucs-tutorial-examples](https://www.alldatasheet.com/html-pdf/50860/FAIRCHILD/CD4069/405/1/CD4069.html))
+* [Datasheet CD4069](https://www.alldatasheet.com/html-pdf/50860/FAIRCHILD/CD4069/405/1/CD4069.html)
 
 ### Parte 2
 
