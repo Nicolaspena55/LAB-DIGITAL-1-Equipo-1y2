@@ -19,4 +19,10 @@ Primero buscamos los datasheets de los respectivos elementos, y obtuvimos las si
 
 ### Parte 2
 
-Las simulaciones, nosotros trabajamos en Qucs-Linux para 
+Las simulaciones, nosotros trabajamos en Qucs-Linux para revisar el comportamiento de las tecnologías y sus circuitos equivalentes. Además de poder determinar: $V_{IH}$, $V_{IL}$, $V_{OH}$, $V_{OL}$.
+
+Agregar las simulaciones 
+
+Y los calculos:
+
+
