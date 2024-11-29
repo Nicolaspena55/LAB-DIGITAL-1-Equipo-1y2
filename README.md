@@ -101,7 +101,7 @@ El tiempo de retardo en negadores se refiere al tiempo que tarda un circuito dig
 Los transistores CMOS y TTL tienen tiempos de retardo diferentes. Por ejemplo, los transistores CMOS generalmente tienen un retardo más bajo en comparación con los TTL debido a su menor consumo de energía y mejor eficiencia en la conmutación.
 Es el tiempo que tarda la señal en propagarse desde la entrada hasta la salida del negador.
 
-![retardo CMOS](T7.png)
+![retardo TTl](T7.png)
 
 El tiempo de retardo es de 84 nS
 
