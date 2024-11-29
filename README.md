@@ -71,14 +71,15 @@ La electrónica digital es un área fundamental en el desarrollo de sistemas mod
 
 El tiempo de subida, tiempo de bajada y retardo son parámetros clave para evaluar el rendimiento dinámico de los circuitos digitales, especialmente en dispositivos como negadores (inversores) implementados con tecnologías como TTL y CMOS. Estos tiempos se refieren a las transiciones de una señal de entrada a una señal de salida en un circuito lógico, y se pueden medir experimentalmente utilizando equipos como osciloscopios y generadores de señales.
 
-\subsection{tiempo se subida}
+### tiempo se subida
+
 El tiempo de subida hace referencia al intervalo de tiempo que tarda la señal de salida en pasar de un valor bajo (0) a un valor alto (1) cuando se aplica un pulso de entrada. Este tiempo de transición es importante para tener ese parametro y utilizar la tecnologia segun convenga para la aplicacion que vamos a utilizar cada negador.
 
-![Circuito equivalente CMOS](T3.png)
+![Subida TTl](T3.png)
 
 El tiempo de subida es de 104 nS
 
-![Circuito equivalente CMOS](T4.png)
+![Subida CMOS](T4.png)
 
 El tiempo de subida es de 118 nS
 
@@ -86,56 +87,34 @@ El tiempo de subida es de 118 nS
 
 El tiempo de bajada es el tiempo que tarda la señal de salida en pasar de un valor alto a un valor bajo, como en el caso se aplica un pulso de entrada y se mira la onda que genera con el oscilosciopio y se encuentra el tiempo que demora en hace el cambio de 1 a 0. esto es importnte por que al igual que en el tiempo de subida de esto podemos necesitar un rango de tiemo de bajada especifico segun la aplicacion
 
-![Circuito equivalente CMOS](T5.png)
+![bajada TTL](T5.png)
 
 El tiempo de bajada es de 338 nS
 
-![Circuito equivalente CMOS](T6.png)
+![bajada CMOS](T6.png)
 
 El tiempo de bajada es de 1.16 uS
 
-\subsection{tiempo de retardo}
+### tiempo de retardo
 
 El tiempo de retardo en negadores se refiere al tiempo que tarda un circuito digital, como un inversor (negador), en cambiar su salida después de que haya ocurrido un cambio en su entrada. Este retardo es una propiedad inherente de los dispositivos electrónicos utilizados en la construcción de circuitos lógicos, como transistores, y es fundamental en el diseño de circuitos rápidos y eficientes.
 Los transistores CMOS y TTL tienen tiempos de retardo diferentes. Por ejemplo, los transistores CMOS generalmente tienen un retardo más bajo en comparación con los TTL debido a su menor consumo de energía y mejor eficiencia en la conmutación.
 Es el tiempo que tarda la señal en propagarse desde la entrada hasta la salida del negador.
 
-![Circuito equivalente CMOS](T7.png)
+![retardo CMOS](T7.png)
 
 El tiempo de retardo es de 84 nS
 
-![Circuito equivalente CMOS](T8.png)
+![retardo CMOS](T8.png)
 
 El tiempo de retardo 496 ns
 
 ---
-## Especificaciones Técnicas
-
-### Tiempos
-El tiempo de subida, tiempo de bajada y tiempo de retardo son parámetros clave para evaluar el rendimiento dinámico de los circuitos digitales:
-
-#### Tiempo de Subida
-- **74LS04 (TTL)**: 104 nS  
-  ![Tiempo de subida TTL](tsubida74ls.png)
-- **CD4069 (CMOS)**: 118 nS  
-  ![Tiempo de subida CMOS](tsubidacd.png)
-
-#### Tiempo de Bajada
-- **74LS04 (TTL)**: 338 nS  
-  ![Tiempo de bajada TTL](tbajada74ls.png)
-- **CD4069 (CMOS)**: 1.16 µS  
-  ![Tiempo de bajada CMOS](tbajadacd.png)
-
-#### Tiempo de Retardo
-- **74LS04 (TTL)**: 84 nS  
-  ![Tiempo de retardo TTL](tretardottl.png)
-- **CD4069 (CMOS)**: 496 nS  
-  ![Tiempo de retardo CMOS](tretardocmos.png)
 
 ---
 
-\section{condiciones del datasheet}
-\subsection{TTL}
+### condiciones del datasheet
+### TTL
 \\
 Segun el datasheet su tiempo de bajada retardo y subida deben estar entre los 10 y 15 nS.
 \\
@@ -159,7 +138,7 @@ I_(cc)=14,38 mA
 P= V_(cc).I_(cc)=32mW
 
 
-\subsection{CMOS}
+### CMOS
 Segun el datasheet su tiempo de bajada retardo y subida deben estar entre los 30 y 50 nS.
 \\
 \\
