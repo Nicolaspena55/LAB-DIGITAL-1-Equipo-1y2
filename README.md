@@ -83,7 +83,7 @@ El tiempo de subida es de 104 nS
 
 El tiempo de subida es de 118 nS
 
-\subsection{tiempo de bajada}
+### tiempo de bajada
 
 El tiempo de bajada es el tiempo que tarda la señal de salida en pasar de un valor alto a un valor bajo, como en el caso se aplica un pulso de entrada y se mira la onda que genera con el oscilosciopio y se encuentra el tiempo que demora en hace el cambio de 1 a 0. esto es importnte por que al igual que en el tiempo de subida de esto podemos necesitar un rango de tiemo de bajada especifico segun la aplicacion
 
