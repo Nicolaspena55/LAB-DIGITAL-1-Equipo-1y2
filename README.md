@@ -65,10 +65,50 @@ La electrónica digital es un área fundamental en el desarrollo de sistemas mod
 ![Circuito equivalente TTL](I1.png)
 
 ### CMOS Circuit
-![Circuito equivalente CMOS](equivalentecmos.png)
+![Circuito equivalente CMOS](T2.png)
 
 ---
 
+El tiempo de subida, tiempo de bajada y retardo son parámetros clave para evaluar el rendimiento dinámico de los circuitos digitales, especialmente en dispositivos como negadores (inversores) implementados con tecnologías como TTL y CMOS. Estos tiempos se refieren a las transiciones de una señal de entrada a una señal de salida en un circuito lógico, y se pueden medir experimentalmente utilizando equipos como osciloscopios y generadores de señales.
+
+\subsection{tiempo se subida}
+El tiempo de subida hace referencia al intervalo de tiempo que tarda la señal de salida en pasar de un valor bajo (0) a un valor alto (1) cuando se aplica un pulso de entrada. Este tiempo de transición es importante para tener ese parametro y utilizar la tecnologia segun convenga para la aplicacion que vamos a utilizar cada negador.
+
+![Circuito equivalente CMOS](T3.png)
+
+El tiempo de subida es de 104 nS
+
+![Circuito equivalente CMOS](T4.png)
+
+El tiempo de subida es de 118 nS
+
+\subsection{tiempo de bajada}
+
+El tiempo de bajada es el tiempo que tarda la señal de salida en pasar de un valor alto a un valor bajo, como en el caso se aplica un pulso de entrada y se mira la onda que genera con el oscilosciopio y se encuentra el tiempo que demora en hace el cambio de 1 a 0. esto es importnte por que al igual que en el tiempo de subida de esto podemos necesitar un rango de tiemo de bajada especifico segun la aplicacion
+
+![Circuito equivalente CMOS](T5.png)
+
+El tiempo de bajada es de 338 nS
+
+![Circuito equivalente CMOS](T6.png)
+
+El tiempo de bajada es de 1.16 uS
+
+\subsection{tiempo de retardo}
+
+El tiempo de retardo en negadores se refiere al tiempo que tarda un circuito digital, como un inversor (negador), en cambiar su salida después de que haya ocurrido un cambio en su entrada. Este retardo es una propiedad inherente de los dispositivos electrónicos utilizados en la construcción de circuitos lógicos, como transistores, y es fundamental en el diseño de circuitos rápidos y eficientes.
+Los transistores CMOS y TTL tienen tiempos de retardo diferentes. Por ejemplo, los transistores CMOS generalmente tienen un retardo más bajo en comparación con los TTL debido a su menor consumo de energía y mejor eficiencia en la conmutación.
+Es el tiempo que tarda la señal en propagarse desde la entrada hasta la salida del negador.
+
+![Circuito equivalente CMOS](T7.png)
+
+El tiempo de retardo es de 84 nS
+
+![Circuito equivalente CMOS](T8.png)
+
+El tiempo de retardo 496 ns
+
+---
 ## Especificaciones Técnicas
 
 ### Tiempos
@@ -94,23 +134,53 @@ El tiempo de subida, tiempo de bajada y tiempo de retardo son parámetros clave 
 
 ---
 
-## Condiciones del Datasheet
+\section{condiciones del datasheet}
+\subsection{TTL}
+\\
+Segun el datasheet su tiempo de bajada retardo y subida deben estar entre los 10 y 15 nS.
+\\
+\\
+fan-in
+\\
+Su fan-In es de uno por lo tanto cada compuerta solo puede resivir una entrada.
+\\
+\\
+fan-out
+\\
+Su fan-Out no se pudo determinar se hiso la medicion hasta 5 y funcionaba bien, pero tipicamente es de alrededor de 10 unidades de carga.
+\\
+\\
+Disipación de potencia
+\\
+ V_(cc)=2,22 V
+ \\
+I_(cc)=14,38 mA
+\\
+P= V_(cc).I_(cc)=32mW
 
-### TTL (74LS04)
-- **Tiempo de Subida/Bajada/Retardo**: 10-15 nS  
-- **Fan-In**: 1  
-- **Fan-Out**: ~10 unidades de carga  
-- **Disipación de Potencia**:  
-  - \( V_{cc} = 2.22 \, \text{V} \), \( I_{cc} = 14.38 \, \text{mA} \)  
-  - \( P = V_{cc} \cdot I_{cc} = 32 \, \text{mW} \)
 
-### CMOS (CD4069)
-- **Tiempo de Subida/Bajada/Retardo**: 30-50 nS  
-- **Fan-In**: 1  
-- **Fan-Out**: 5 unidades de carga  
-- **Disipación de Potencia**:  
-  - \( V_{cc} = 3.25 \, \text{V} \), \( I_{cc} = 13.23 \, \mu\text{A} \)  
-  - \( P = V_{cc} \cdot I_{cc} = 42.99 \, \mu\text{W} \)
+\subsection{CMOS}
+Segun el datasheet su tiempo de bajada retardo y subida deben estar entre los 30 y 50 nS.
+\\
+\\
+Fan-In
+\\
+Su fan-in es de uno por lo tanto cada compuerta solo puede resivir una entrada.
+\\
+\\
+Fan-Out
+\\
+Su fan out es de 5 unidades de carga.
+\\
+\\
+Disipación de potencia
+\\
+V_(cc)= 3.25
+\\
+V Icc = 13.23 uA Potencia disipada = (Vcc)(Icc) 
+\\
+Pd = V_(cc).I_(cc) =42.99 uW
+\\
 
 ---
 
