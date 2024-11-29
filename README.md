@@ -20,7 +20,7 @@ encontramos el circuito equivalente de cada negador
 para hacer esta practica se desarrollan las simulaciones de los parametros , como se muestra en las siguientes imagenes
 
 
-# Comparative Analysis of TTL and CMOS Technologies in Digital Circuit Design
+# Practica 1: COMPARACIÓN DE TECNOLOGÍA CMOS y TTL
 
 ## Abstract
 This project focuses on the comparative analysis of two fundamental technologies in the design and development of digital circuits: **TTL (Transistor-Transistor Logic)** and **CMOS (Complementary Metal-Oxide-Semiconductor)**. These architectures have been pivotal in the evolution of digital electronics and are widely used in various applications, ranging from computing systems to mobile devices and consumer electronics.
