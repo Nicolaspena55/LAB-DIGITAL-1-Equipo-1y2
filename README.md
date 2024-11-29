@@ -120,5 +120,3 @@ Su diseño y funcionamiento son fundamentales en circuitos digitales para genera
 
 ---
 
-## Contacto
-Para más información, consulta el repositorio o contacta al autor del proyecto.
