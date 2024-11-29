@@ -62,7 +62,7 @@ La electrónica digital es un área fundamental en el desarrollo de sistemas mod
 ## Circuitos Equivalentes
 
 ### TTL Circuit
-![Circuito equivalente TTL](I1.png)
+![Circuito equivalente TTL](T1.png)
 
 ### CMOS Circuit
 ![Circuito equivalente CMOS](T2.png)
