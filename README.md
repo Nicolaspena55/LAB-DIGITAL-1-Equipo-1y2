@@ -114,11 +114,11 @@ Su fan-Out no se pudo determinar se hiso la medicion hasta 5 y funcionaba bien, 
 \\
 Disipación de potencia
 \\
- $V_(cc)=2,22 V$
+ $V_{cc}=2,22 V$
  \\
-$I_(cc)=14,38 mA$
+$I_{cc}=14,38 mA$
 \\
-$P= V_(cc).I_(cc)=32mW$
+$P= V_{cc}.I_{cc}=32mW$
 
 
 ### CMOS
@@ -137,11 +137,11 @@ Su fan out es de 5 unidades de carga.
 \\
 Disipación de potencia
 \\
-$V_(cc)= 3.25$
+$V_{cc}= 3.25$
 \\
 $V Icc = 13.23 uA Potencia disipada = (Vcc)(Icc)$ 
 \\
-$Pd = V_(cc).I_(cc) =42.99 uW$
+$Pd = V_{cc}*I_{cc} =42.99 uW$
 \\
 
 ---
