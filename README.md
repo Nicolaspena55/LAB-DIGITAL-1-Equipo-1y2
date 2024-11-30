@@ -148,5 +148,13 @@ El oscilador de anillo utiliza un número impar de inversores conectados en un b
 
 Su diseño y funcionamiento son fundamentales en circuitos digitales para generar señales oscilatorias precisas y medir parámetros como el tiempo de propagación del inversor.
 
+![Circuito equivalente TTL](T10.png)
+
+![Circuito equivalente TTL](T11.png)
+
+![Circuito equivalente TTL](T12.png)
+
+![Circuito equivalente TTL](T13.png)
+
 ---
 
