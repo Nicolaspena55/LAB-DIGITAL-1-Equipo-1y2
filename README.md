@@ -123,26 +123,24 @@ $P= V_{cc}.I_{cc}=32mW$
 
 ### CMOS
 Segun el datasheet su tiempo de bajada retardo y subida deben estar entre los 30 y 50 nS.
-\\
-\\
-Fan-In
-\\
+
+### Fan-In
+
 Su fan-in es de uno por lo tanto cada compuerta solo puede resivir una entrada.
-\\
-\\
-Fan-Out
-\\
+
+
+### Fan-Out
+
 Su fan out es de 5 unidades de carga.
-\\
-\\
-Disipación de potencia
-\\
+
+### Disipación de potencia
+
 $V_{cc}= 3.25$
-\\
+
 $V Icc = 13.23 uA Potencia disipada = (Vcc)(Icc)$ 
-\\
+
 $Pd = V_{cc}*I_{cc} =42.99 uW$
-\\
+
 
 ---
 
