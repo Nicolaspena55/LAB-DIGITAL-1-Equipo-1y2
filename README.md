@@ -98,26 +98,23 @@ El tiempo de retardo 496 ns
 
 ### condiciones del datasheet
 ### TTL
-\\
+
 Segun el datasheet su tiempo de bajada retardo y subida deben estar entre los 10 y 15 nS.
-\\
-\\
-fan-in
-\\
+
+### fan-in
+
 Su fan-In es de uno por lo tanto cada compuerta solo puede resivir una entrada.
-\\
-\\
-fan-out
-\\
+
+### fan-out
+
 Su fan-Out no se pudo determinar se hiso la medicion hasta 5 y funcionaba bien, pero tipicamente es de alrededor de 10 unidades de carga.
-\\
-\\
-Disipación de potencia
-\\
+
+### Disipación de potencia
+
  $V_{cc}=2,22 V$
- \\
+
 $I_{cc}=14,38 mA$
-\\
+
 $P= V_{cc}.I_{cc}=32mW$
 
 
@@ -137,7 +134,9 @@ Su fan out es de 5 unidades de carga.
 
 $V_{cc}= 3.25$
 
-$V Icc = 13.23 uA Potencia disipada = (Vcc)(Icc)$ 
+$V Icc = 13.23 uA$ 
+
+$Potencia disipada = (Vcc)(Icc)$ 
 
 $Pd = V_{cc}*I_{cc} =42.99 uW$
 
