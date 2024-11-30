@@ -147,6 +147,7 @@ Pd = V_(cc).I_(cc) =42.99 uW
 El oscilador de anillo utiliza un número impar de inversores conectados en un bucle, aprovechando el tiempo de retardo inherente de las puertas digitales. Este retardo genera una oscilación con un periodo de \( 2N \cdot t_p \), donde \( N \) es el número de inversores.
 
 Su diseño y funcionamiento son fundamentales en circuitos digitales para generar señales oscilatorias precisas y medir parámetros como el tiempo de propagación del inversor.
+Para esta prectica usando el negador CMOS CD4069 en donde usamos 3 y 5 compuertas para las simulaciones y montaje con una fuente Vdd=5V.
 
 ![Circuito equivalente TTL](T10.png)
 
