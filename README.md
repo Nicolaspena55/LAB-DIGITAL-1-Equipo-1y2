@@ -149,7 +149,7 @@ El oscilador de anillo es usado comúnmente en circuitos digitales y su funciona
 
 Su funcionamiento consta en el retardo de la puerta y debemos entender que en un dispositivo físico, ninguna compuerta puede cambiar instantáneamente recordando que es un dispositivo fabricado con MOSFETs, teniendo en cuenta que la capacitancia de la compuerta debe ser cargada antes de que la corriente pueda fluir entre el Source y el Drain, entonces la salida de cada inversor en un oscilador en anillo cambia con un pequeño retraso después de que su entrada se modifica. Si se agregan más inversores al circuito, el tiempo total de retraso aumenta, lo que reduce la frecuencia a la que el oscilador funciona. 
 
-El oscilador de anillo utiliza un número impar de inversores conectados en un bucle, aprovechando el tiempo de retardo inherente de las puertas digitales. Este retardo genera una oscilación con un periodo de \( 2N \cdot t_p \), donde \( N \) es el número de inversores.
+El oscilador de anillo utiliza un número impar de inversores conectados en un bucle, aprovechando el tiempo de retardo inherente de las puertas digitales. Este retardo genera una oscilación con un periodo de $2N \cdot t_p$, donde $N$ es el número de inversores.
 
 Su diseño y funcionamiento son fundamentales en circuitos digitales para generar señales oscilatorias precisas y medir parámetros como el tiempo de propagación del inversor.
 Para esta prectica usando el negador CMOS CD4069 en donde usamos 3 y 5 compuertas para las simulaciones y montaje con una fuente Vdd=5V.
