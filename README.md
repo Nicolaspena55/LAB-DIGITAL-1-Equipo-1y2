@@ -145,7 +145,7 @@ Pd = V_(cc).I_(cc) =42.99 uW
 
 ## Oscilador en Anillo Basado en la Compuerta NOT
 
-El oscilador de anillo es usado comúnmente en circuitos digitales y su funcionamiento  se basa en el retardo inherente de las compuertas digitales, su forma de conexión es es en un lazo con un numero impar de inversores para este caso se usaron de 3 y 5 inversores con un $V_{dd}=5V $ en donde regresa invertido después de un tiempo de propagación de $Nt_P$.  Para un anillo con N inversores donde es impar este oscilara con un periodo de $2Nt_p$ ademas de que se puede medir el tiempo de propagación del inversor de manera sencilla.
+El oscilador de anillo es usado comúnmente en circuitos digitales y su funcionamiento  se basa en el retardo inherente de las compuertas digitales, su forma de conexión es es en un lazo con un numero impar de inversores para este caso se usaron de 3 y 5 inversores con un \( V_{dd} = 5V \) en donde regresa invertido después de un tiempo de propagación de $Nt_P$.  Para un anillo con N inversores donde es impar este oscilara con un periodo de $2Nt_p$ ademas de que se puede medir el tiempo de propagación del inversor de manera sencilla.
 
 Su funcionamiento consta en el retardo de la puerta y debemos entender que en un dispositivo físico, ninguna compuerta puede cambiar instantáneamente recordando que es un dispositivo fabricado con MOSFETs, teniendo en cuenta que la capacitancia de la compuerta debe ser cargada antes de que la corriente pueda fluir entre el Source y el Drain, entonces la salida de cada inversor en un oscilador en anillo cambia con un pequeño retraso después de que su entrada se modifica. Si se agregan más inversores al circuito, el tiempo total de retraso aumenta, lo que reduce la frecuencia a la que el oscilador funciona. 
 
